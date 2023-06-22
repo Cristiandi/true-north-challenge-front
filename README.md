@@ -1,4 +1,4 @@
-# inoutfin-web
+# true-north-challenge-front
 
 ## Project setup
 ```
