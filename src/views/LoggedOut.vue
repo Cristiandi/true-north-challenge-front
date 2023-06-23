@@ -4,10 +4,10 @@
       <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
         <div class="row">
           <div class="col-6 align-self-center text-center">
-            <router-link to="/register" role="button" class="btn btn-dark">REGISTRARSE</router-link>
+            <router-link to="/register" role="button" class="btn btn-dark">Sign up</router-link>
           </div>
           <div class="col-6 align-self-center text-center">
-            <router-link to="/login" role="button" class="btn btn-outline-dark" :style="{ width: '10rem' }">INICIAR SESIÓN</router-link>
+            <router-link to="/login" role="button" class="btn btn-outline-dark" :style="{ width: '10rem' }">Sign in</router-link>
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@
         class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-8 offset-sm-2"
       >
         <div class="centered">
-          <h1 class="text-center">Register</h1>
+          <h1 class="text-center">Sing up</h1>
           <VueForm
             @submit="onSubmit"
             v-slot="{ errors }"
@@ -97,7 +97,7 @@
             <div v-if="!loading">
               <pre></pre>
               <button type="submit" class="btn btn-dark form-control">
-                REGISTRARSE
+                Sign up
               </button>
             </div>
           </VueForm>

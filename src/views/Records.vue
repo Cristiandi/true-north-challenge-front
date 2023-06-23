@@ -23,9 +23,7 @@
                   :class="sortOrder === 1 ? 'arrow-up' : 'arrow-down'"
                 ></span>
               </th>
-              <th>
-                Actions
-              </th>
+              <th>Actions</th>
             </tr>
           </thead>
           <tbody>
@@ -116,7 +114,9 @@ export default {
           for (const column of this.columns) {
             const value = item[column.key];
             const stringValue = '' + value;
-            if (stringValue.toLowerCase().includes(this.searchTerm.toLowerCase())) {
+            if (
+              stringValue.toLowerCase().includes(this.searchTerm.toLowerCase())
+            ) {
               return true;
             }
           }
@@ -163,7 +163,12 @@ export default {
     },
     sortData (column) {
       if (this.sortColumn === column) {
-        this.sortOrder = 'DESC';
+        if (this.sortOrder === 'ASC') {
+          this.sortOrder = 'DESC';
+        } else {
+          this.sortOrder = 'ASC';
+        }
+
         this.fetchData({
           take: this.perPage,
           skip: (this.currentPage - 1) * this.perPage,

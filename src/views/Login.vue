@@ -9,7 +9,7 @@
       >
         <div class="centered">
           <div v-if="!loginLoading">
-            <h1 class="text-center">Login</h1>
+            <h1 class="text-center">Log in</h1>
             <VueForm
               @submit="onSubmit"
               v-slot="{ errors }"
@@ -74,7 +74,7 @@
               <div v-if="!loading">
                 <pre></pre>
                 <button type="submit" class="btn btn-dark form-control">
-                  GO
+                  Log in
                 </button>
               </div>
             </VueForm>
