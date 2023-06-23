@@ -21,4 +21,4 @@ npm run lint
 ```
 
 ### Live URL
-https://true-north-challenge-front.vercel.app
+- https://true-north-challenge-front.vercel.app
