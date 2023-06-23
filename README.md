@@ -20,5 +20,5 @@ npm run build
 npm run lint
 ```
 
-### Access to the project
+### Live URL
 https://true-north-challenge-front.vercel.app
